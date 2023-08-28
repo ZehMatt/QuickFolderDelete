@@ -1,0 +1,11 @@
+# Reference: https://build-cpp.github.io/cmkr/cmake-toml
+[project]
+name = "QuickFolderDelete"
+
+[target.QuickFolderDelete]
+type = "executable"
+sources = ["src/QuickFolderDelete/main.cpp"]
+compile-features = ["cxx_std_11"]
+
+[target.QuickFolderDelete.properties]
+WIN32_EXECUTABLE = true
